@@ -1,0 +1,5 @@
+<script type="text/javascript" src="cryptojs_v3.1.2.js"></script>
+<script type="text/javascript" src="xapiwrapper.min.js"></script>
+<script type="text/javascript" src="xapi.js"></script>
+
+send_statement('http://adlnet.gov/expapi/verbs/experienced', 'experienced', 'http://example.com/note', 'note', 'in the notecard interaction'); 
