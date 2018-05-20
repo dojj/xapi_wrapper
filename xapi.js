@@ -23,7 +23,7 @@ function send_statement(verbId, verb, objectId, name, description) {
   var statement = {
     'actor': {
       'mbox': 'mailto:' + email,
-      'name': userName,
+      'name': 'mailto:' + email,
       'objectType': 'Agent'
     },
     'verb': {
